@@ -1,0 +1,361 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - myhorizon.solorient.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=421DA7351764B4E47141D9876E167986; Path=/Horizon/; HttpOnly
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 09 Jul 2019 06:37:02 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
+        \r\n<html>\r\n<head> \r\n\t<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;
+        charset=UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\">\r\n\r\n    <link href=\"font-awesome-4.6.3/css/font-awesome.min.css\"
+        rel=\"stylesheet\">\r\n\t<link rel=\"stylesheet\" href=\"bootstrap-3.3.4-dist/css/bootstrap.min.css\">\r\n<link
+        rel=\"stylesheet\" href=\"KendoUI/styles/kendo.common-bootstrap.min.css\">\n<link
+        rel=\"stylesheet\" href=\"KendoUI/styles/kendo.bootstrap.min.css\">\r\n<link
+        rel=\"stylesheet\" href=\"KendoUI/styles/kendo.dataviz.min.css\">\r\n<link
+        rel=\"stylesheet\" href=\"KendoUI/styles/kendo.dataviz.bootstrap.min.css\">\r\n<link
+        rel=\"stylesheet\" href=\"KendoUI/styles/kendo.bootstrap.mobile.min.css\">\n\r\n
+        \   <link href=\"aware_kendo/resources/css/aware.css\" rel=\"stylesheet\">\r\n
+        \   \r\n<!-- CSS SEPARATOR. Don't delete -->\r\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"jquery-ui-1.11.4/jquery-ui.min.css\" > \r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"Custom/CSS/horizon.css\" > \r\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"Custom/CSS/northwind.css\" > \r\n\r\n<!-- This is
+        needed in order to display splitter for the full height. It is achieved by
+        setting splitter's divs to\r\n100% height, but the browser requires that in
+        this case all parents should have 100% height as well starting from HTML and
+        body\r\n-->\r\n<style>\r\nhtml,\r\nbody\r\n{\r\n    height:100%;\r\n    margin:0;\r\n
+        \   padding:0;\r\n    overflow:hidden;\r\n    background: #363636;\r\n    font:
+        100%/1 \"Helvetica Neue\", Arial, sans-serif;\r\n}\r\n</style>\r\n\r\n</head>
+        \r\n\r\n<body><div id=\"bas_startup_msg\" style=\"text-align: center; padding-top:
+        200px; \">Loading page. Please wait...</div> \r\n<div style=\"visibility:hidden;\"
+        id=\"main_screen\" > \r\n<!-- \r\n<?xml version='1.0' encoding='UTF-8' ?>
+        \r\n<root> \r\n<login_action_return> \r\n<login_action_success> \r\n<header
+        business_space=\"horizondap\" business_space_raw=\"horizondap\" user_name=\"\"
+        testing_mode=\"false\" logon_page=\"logonAdmin.html\" timeout_page=\"./logonGuest.aw?domain=horizondap\"
+        server_url=\"http://myhorizon.solorient.com.au:80/Horizon\" > \r\n</header>
+        \r\n<visual_perspective name=\"Guest\" id=\"107\" is_startup=\"true\" mobile_transitions=\"true\"
+        startup_process=\"CheckLoadStatus\" turn_off_powered_by=\"true\" platform=\"desktop_and_tablets\"
+        font_size=\"11\"> \r\n  <vpframe type=\"main\" title_bar=\"false\" collapsible=\"false\"
+        visible=\"true\" splittable=\"false\" borders_off=\"true\"> \r\n    <page
+        name=\"BAS_Main_Page\" id=\"0\" force_tab=\"true\"> \r\n      <pagetab title=\"Applications
+        Lodged\" layout=\"vert\" columns=\"2\" align=\"top\" pack=\"start\" image_cls=\"fa
+        fa-map-marker\"> \r\n        <panelinfo height=\"500\"> \r\n          <content_panel
+        name=\"Main\" display_title=\"false\" closable=\"false\" collapsible=\"false\"
+        show_borders=\"false\" margin_top=\"0\" margin_bottom=\"0\" margin_left=\"0\"
+        margin_right=\"0\" margin_top_inner=\"0\" margin_bottom_inner=\"0\" margin_left_inner=\"0\"
+        margin_right_inner=\"0\" bgnd_color=\"#ffffff\"> \r\n            <menu_item
+        name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>Applications</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo> \r\n          <content_panel name=\"Recent Applications\"
+        display_title=\"false\" closable=\"false\" collapsible=\"false\" show_borders=\"false\"
+        margin_top=\"0\" margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\">
+        \r\n            <menu_item name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>Applications_Recent</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \     </pagetab>\r\n      <pagetab title=\"Application Statistics\" layout=\"vert\"
+        columns=\"2\" align=\"top\" pack=\"start\" image_cls=\"fa fa-bar-chart\">
+        \r\n        <panelinfo> \r\n          <content_panel name=\"2018\" display_title=\"false\"
+        closable=\"false\" collapsible=\"false\" show_borders=\"false\" margin_top=\"0\"
+        margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\"> \r\n            <menu_item
+        name=\"Query\" type=\"run_query\" id=\"0\">              <menu_item_param>DA_Graph_2018</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo> \r\n          <content_panel name=\"2017\" display_title=\"false\"
+        closable=\"false\" collapsible=\"false\" show_borders=\"false\" margin_top=\"0\"
+        margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\"> \r\n            <menu_item
+        name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>DA_Graph_2017</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo> \r\n          <content_panel name=\"2016\" display_title=\"false\"
+        closable=\"false\" collapsible=\"false\" show_borders=\"false\" margin_top=\"0\"
+        margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\"
+        margin_bottom_inner=\"0\" margin_left_inner=\"0\" margin_right_inner=\"0\"
+        bgnd_color=\"#ffffff\"> \r\n            <menu_item name=\"Query\" type=\"run_query\"
+        id=\"1\">              <menu_item_param>DA_Graph_2016</menu_item_param>            </menu_item>\r\n
+        \         </content_panel>\r\n        </panelinfo>\r\n        <panelinfo>
+        \r\n          <content_panel name=\"2015\" display_title=\"false\" closable=\"false\"
+        collapsible=\"false\" show_borders=\"false\" margin_top=\"0\" margin_bottom=\"0\"
+        margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\" margin_bottom_inner=\"0\"
+        margin_left_inner=\"0\" margin_right_inner=\"0\" bgnd_color=\"#ffffff\"> \r\n
+        \           <menu_item name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>DA_Graph_2015</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo anchor=\"\"> \r\n          <content_panel name=\"2014\"
+        display_title=\"false\" closable=\"false\" collapsible=\"false\" show_borders=\"false\"
+        margin_top=\"0\" margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\"
+        margin_top_inner=\"0\" margin_bottom_inner=\"0\" margin_left_inner=\"0\" margin_right_inner=\"0\"
+        bgnd_color=\"#ffffff\"> \r\n            <menu_item name=\"Query\" type=\"run_query\"
+        id=\"1\">              <menu_item_param>DA_Graph_2014</menu_item_param>            </menu_item>\r\n
+        \         </content_panel>\r\n        </panelinfo>\r\n        <panelinfo anchor=\"\">
+        \r\n          <content_panel name=\"2013\" display_title=\"false\" closable=\"false\"
+        collapsible=\"false\" show_borders=\"false\" margin_top=\"0\" margin_bottom=\"0\"
+        margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\" margin_bottom_inner=\"0\"
+        margin_left_inner=\"0\" margin_right_inner=\"0\" bgnd_color=\"#ffffff\"> \r\n
+        \           <menu_item name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>DA_Graph_2013</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo> \r\n          <content_panel name=\"2012\" display_title=\"false\"
+        closable=\"false\" collapsible=\"false\" show_borders=\"false\" margin_top=\"0\"
+        margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\"
+        margin_bottom_inner=\"0\" margin_left_inner=\"0\" margin_right_inner=\"0\"
+        bgnd_color=\"#ffffff\"> \r\n            <menu_item name=\"Query\" type=\"run_query\"
+        id=\"1\">              <menu_item_param>DA_Graph_2012</menu_item_param>            </menu_item>\r\n
+        \         </content_panel>\r\n        </panelinfo>\r\n        <panelinfo anchor=\"\">
+        \r\n          <content_panel name=\"2011\" display_title=\"false\" closable=\"false\"
+        collapsible=\"false\" show_borders=\"false\" margin_top=\"0\" margin_bottom=\"0\"
+        margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\" margin_bottom_inner=\"0\"
+        margin_left_inner=\"0\" margin_right_inner=\"0\" bgnd_color=\"#ffffff\"> \r\n
+        \           <menu_item name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>DA_Graph_2011</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \       <panelinfo anchor=\"\"> \r\n          <content_panel name=\"2010\"
+        display_title=\"false\" closable=\"false\" collapsible=\"false\" show_borders=\"false\"
+        margin_top=\"0\" margin_bottom=\"0\" margin_left=\"0\" margin_right=\"0\"
+        margin_top_inner=\"0\" margin_bottom_inner=\"0\" margin_left_inner=\"0\" margin_right_inner=\"0\"
+        bgnd_color=\"#ffffff\"> \r\n            <menu_item name=\"Query\" type=\"run_query\"
+        id=\"1\">              <menu_item_param>DA_Graph_2010</menu_item_param>            </menu_item>\r\n
+        \         </content_panel>\r\n        </panelinfo>\r\n        <panelinfo>
+        \r\n          <content_panel name=\"2009\" display_title=\"false\" closable=\"false\"
+        collapsible=\"false\" show_borders=\"false\" margin_top=\"0\" margin_bottom=\"0\"
+        margin_left=\"0\" margin_right=\"0\" margin_top_inner=\"0\" margin_bottom_inner=\"0\"
+        margin_left_inner=\"0\" margin_right_inner=\"0\" bgnd_color=\"#ffffff\"> \r\n
+        \           <menu_item name=\"Query\" type=\"run_query\" id=\"1\">              <menu_item_param>DA_Graph_2009</menu_item_param>
+        \           </menu_item>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \     </pagetab>\r\n    </page>\r\n  </vpframe>\r\n  <vpframe type=\"footer\"
+        initial_size=\"20\" title_bar=\"false\" collapsible=\"false\" visible=\"true\"
+        splittable=\"false\" borders_off=\"true\"> \r\n    <page name=\"BAS_Footer_Page\"
+        id=\"0\" tab_position=\"bottom\"> \r\n      <pagetab title=\"Main\" layout=\"vert\"
+        columns=\"2\" align=\"top\" pack=\"start\"> \r\n        <panelinfo> \r\n          <content_panel
+        name=\"Main\" display_title=\"false\" closable=\"false\" collapsible=\"false\"
+        show_borders=\"false\" html_page_name=\"footer.html\"> \r\n            <panel_html>
+        \r\n              &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+        &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;\n&lt;html
+        xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta
+        http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;
+        /&gt;\n&lt;title&gt;Copyright&lt;/title&gt;\n&lt;style type=&quot;text/css&quot;&gt;\nbody
+        p {\n\tfont-family: Verdana, Geneva, sans-serif;\n\tfont-size: 14px;\n\ttext-align:
+        left;\n}\n.headerp {\n\tfont-family: Verdana, Geneva, sans-serif;\n}\n.SolOrient
+        {\n    font-family: Verdana, Geneva, sans-serif;\n\tcolor: #F60;\n\tfont-size:
+        9px;\n\ttext-align: center;\n}\n.TitleName {\n\tfont-weight: bold;\n\tcolor:
+        #F60;\n}\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;span class=&quot;SolOrient&quot;&gt;&lt;em&gt;Powered
+        by Horizon - simplifying solutions for Local Government, &lt;a href=&quot;http://www.solorient.com.au&quot;
+        target=&quot;_new&quot;&gt;SolOrient Pty Ltd&lt;/a&gt;, Copyright 2018&lt;/em&gt;
+        - Build 4.03 for &lt;a href=&quot;http://www.weddin.nsw.gov.au&quot; target=&quot;_new&quot;&gt;Weddin
+        Shire Council&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\r\n
+        \           </panel_html>\r\n          </content_panel>\r\n        </panelinfo>\r\n
+        \     </pagetab>\r\n    </page>\r\n  </vpframe>\r\n  <vpframe type=\"left\"
+        initial_size=\"200\" title_bar=\"true\" title=\"Application Portal Menu\"
+        collapsible=\"false\" visible=\"true\" splittable=\"false\" borders_off=\"true\">
+        \r\n    <menu_definition next_id=\"16\" widget_type=\"3\" icon_position=\"left\">
+        \r\n      <menu_item name=\"DA Portal\" type=\"folder\" id=\"0\">        <menu_item
+        name=\"On Notification\" type=\"start_process\" id=\"1\" image_cls=\"fa fa-rss\"
+        output=\"new_tab\">          <menu_item_param>Application_Notification_Layout</menu_item_param>
+        \         <new_tab_data></new_tab_data>\r\n        </menu_item>        <menu_item
+        name=\"Property Search\" type=\"start_process\" id=\"2\" image_cls=\"fa fa-map-marker\"
+        description=\"Search for Properties\" output=\"new_tab\">          <menu_item_param>Parcel_Layout</menu_item_param>
+        \       </menu_item>        <menu_item name=\"Application Search\" type=\"start_process\"
+        id=\"3\" image_cls=\"fa fa-copy\" description=\"Simple Application Search\"
+        output=\"new_tab\">          <menu_item_param>Application_Layout</menu_item_param>
+        \       </menu_item>        <menu_item name=\"Applications Lodged\" type=\"folder\"
+        id=\"4\" image_cls=\"fa fa-search\" expanded=\"true\">          <menu_item
+        name=\"This Week\" type=\"run_query\" id=\"5\">            <menu_item_param>SubmittedThisWeek</menu_item_param>
+        \         </menu_item>          <menu_item name=\"Last Week\" type=\"run_query\"
+        id=\"6\" output=\"new_tab\">            <menu_item_param>SubmittedLastWeek</menu_item_param>
+        \         </menu_item>          <menu_item name=\"ThisMonth\" type=\"run_query\"
+        id=\"7\" output=\"new_tab\">            <menu_item_param>SubmittedThisMonth</menu_item_param>
+        \         </menu_item>          <menu_item name=\"Last Month\" type=\"run_query\"
+        id=\"8\" output=\"new_tab\">            <menu_item_param>SubmittedLastMonth</menu_item_param>
+        \         </menu_item>        </menu_item>        <menu_item name=\"Applications
+        Determined\" type=\"folder\" id=\"9\" image_cls=\"fa fa-search\" expanded=\"true\">
+        \         <menu_item name=\"This Week\" type=\"run_query\" id=\"10\" output=\"new_tab\">
+        \           <menu_item_param>DeterminedThisWeek</menu_item_param>          </menu_item>
+        \         <menu_item name=\"Last Week\" type=\"run_query\" id=\"11\">            <menu_item_param>DeterminedLastWeek</menu_item_param>
+        \         </menu_item>          <menu_item name=\"This Month\" type=\"run_query\"
+        id=\"12\" output=\"new_tab\">            <menu_item_param>DeterminedThisMonth</menu_item_param>
+        \         </menu_item>          <menu_item name=\"Last Month\" type=\"run_query\"
+        id=\"13\" output=\"new_tab\">            <menu_item_param>DeterminedLastMonth</menu_item_param>
+        \         </menu_item>        </menu_item>      </menu_item>\r\n    </menu_definition>\r\n
+        \ </vpframe>\r\n  <startup_acl>Guest</startup_acl> \r\n<theme_info kendo-id=\"bootstrap\"
+        name=\"Bootstrap\" common_path=\"KendoUI/styles/kendo.common-bootstrap.min.css\"
+        main_path=\"KendoUI/styles/kendo.bootstrap.min.css\" data_viz_path=\"KendoUI/styles/kendo.dataviz.bootstrap.min.css\"
+        aware_path=\"aware_kendo/resources/css/aware_bootstrap.css\" />\r\n  <menu_item
+        name=\"Splash\" type=\"start_process\" id=\"0\">    <menu_item_param>Splash_Copyright</menu_item_param>
+        \ </menu_item></visual_perspective>\r\n</login_action_success> \r\n</login_action_return>
+        \r\n</root> \r\n\r\n--> \r\n</div> \r\n \r\n\r\n<script src=\"KendoUI/js/jquery.min.js\"></script>\r\n<script
+        src=\"KendoUI/js/kendo.all.min.js\"></script>\r\n<script type=\"text/javascript\"
+        src=\"jquery-ui-1.11.4/jquery-ui.min.js\"></script>\r\n<script type=\"text/javascript\"
+        src=\"aware_kendo/aware.js?V2238\"></script>\t\r\n<script src=\"Custom/jquery.embedly.js\"></script>\r\n<script
+        src=\"Custom/embed.js\"></script> \r\n<!-- JS SEPARATOR. Don't delete -->\r\n<script
+        type=\"text/javascript\" src=\"aware_kendo/parsers/customLayoutParser.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"aware_kendo/parsers/chartParser.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"Custom/JS/d3.v3.min.js\" ></script> \r\n<script
+        type=\"text/javascript\" src=\"Custom/JS/d3pie.js\" ></script> \r\n\r\n    <!--
+        height:100% - See comment to <style> -->\r\n    <div id=\"aware_app\"></div>\r\n
+        \   <div id=\"aw_about_window\" style=\"padding:15px\"></div>\r\n    <div
+        id=\"aw_form_search_help\"></div>\r\n    <div id=\"aw_notif\"></div>\r\n    <div
+        id=\"aw_doc_window\"></div>\r\n    <div id=\"aw_mobile_popup\" class=\"km-root
+        km-bootstrap\"></div>\r\n    <div id=\"aw_bottom_toolbar\" style=\"width:100%;position:fixed;bottom:0px;z-index:2000;\"></div>\r\n\r\n
+        \  <script>\r\n             $(document).ready(function() {\r\n\t\t// find
+        the DIV with XML node\r\n\t\tvar div = $(\"#main_screen\");\r\n\t\tif (div
+        == null)\r\n\t\t\treturn;\r\n\r\n\t\tvar children = div.contents ();\r\n\t\tif
+        (! children || children.length == 0)\r\n\t\t\treturn;\r\n\r\n\t\tvar xmlText
+        = \"\";\r\n\t\tfor (var i = 0; i < children.length; ++ i)\r\n\t\t{\r\n\t\t\txmlText
+        += children [i].nodeValue;\r\n\t\t}\r\n\t\tvar xmlDoc = parseXMLDocument ($.trim
+        (xmlText));\r\n\t\tif (xmlDoc == null)\r\n\t\t{\r\n\t\t\talert ('Unable to
+        parse XML');\r\n\t\t\treturn;\r\n\t\t}\r\n\t\tif (xmlDoc.parseError && xmlDoc.parseError.reason
+        && xmlDoc.parseError.reason != '')\r\n\t\t{\r\n\t\t\talert ('XML parsing error
+        ' + xmlDoc.parseError.reason + ' on line ' + xmlDoc.parseError.line + ' '
+        + xmlDoc.parseError.srcText);\r\n\t\t\treturn;\r\n\t\t}\r\n\r\n\t\tvar startupMsg
+        = $(\"#bas_startup_msg\");\r\n\t\tif (startupMsg)\r\n\t\t\tstartupMsg.remove
+        ();\r\n\r\n\t\tAwareApp.start (xmlDoc);\r\n\t});\r\n\r\n</script>\r\n\r\n</body>
+        \r\n</html>\t \r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: http://myhorizon.solorient.com.au/Horizon/urlRequest.aw?actionType=run_query_action&pageSize=500&query_name=SubmittedThisMonth&query_string=FIND%20Applications%20WHERE%20MONTH(Applications.Lodged)=CURRENT_MONTH%20AND%20YEAR(Applications.Lodged)=CURRENT_YEAR%20ORDER%20BY%20Applications.Lodged%20DESC&skip=0&start=0&take=50
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - JSESSIONID=421DA7351764B4E47141D9876E167986
+      Host:
+      - myhorizon.solorient.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 09 Jul 2019 06:37:02 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8' ?> \r\n<root> \r\n<run_query_action_return>
+        \r\n<run_query_action_success> \r\n<dataset> \r\n<total>7</total> \r\n<row>
+        \r\n<id>730658913</id> \r\n<BAS_REF_VALUE>Applications:730658913</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Development Applications\"></AppType> \r\n<AccountNumber
+        org_value=\"DA2019/23.1\"></AccountNumber> \r\n<Description org_value=\"Dwelling\"></Description>
+        \r\n<Lodged org_value=\"03/07/2019\"></Lodged> \r\n<Property org_value=\"21
+        Bradley Street GRENFELL 2810\"></Property> \r\n<Applicant org_value=\"Andys
+        Design &amp; Drafting\"></Applicant> \r\n<AppYear org_value=\"2019\"></AppYear>
+        \r\n<AppNumber org_value=\"23\"></AppNumber> \r\n<PCA org_value=\"Weddin Shire
+        Council\"></PCA> \r\n<Builder org_value=\"\"></Builder> \r\n<EstimatedCost
+        org_value=\"176700\"></EstimatedCost> \r\n<Officer org_value=\"Mr B J Hayes\"></Officer>
+        \r\n<LEP org_value=\"\"></LEP> \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729569961</id> \r\n<BAS_REF_VALUE>Applications:729569961</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Occupation Certificate\"></AppType> \r\n<AccountNumber
+        org_value=\"OC2019/11.1\"></AccountNumber> \r\n<Description org_value=\"Primary
+        and Secondary Dwelling + Shed\"></Description> \r\n<Lodged org_value=\"02/07/2019\"></Lodged>
+        \r\n<Property org_value=\"4951 Henry Lawson Way GRENFELL 2810\"></Property>
+        \r\n<Applicant org_value=\"Andys Design &amp; Drafting\"></Applicant> \r\n<AppYear
+        org_value=\"2019\"></AppYear> \r\n<AppNumber org_value=\"11\"></AppNumber>
+        \r\n<PCA org_value=\"Weddin Shire Council\"></PCA> \r\n<Builder org_value=\"\"></Builder>
+        \r\n<EstimatedCost org_value=\"597700\"></EstimatedCost> \r\n<Officer org_value=\"Mr
+        B J Hayes\"></Officer> \r\n<LEP org_value=\"\"></LEP> \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729045154</id> \r\n<BAS_REF_VALUE>Applications:729045154</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Development Applications\"></AppType> \r\n<AccountNumber
+        org_value=\"DA2019/21.1\"></AccountNumber> \r\n<Description org_value=\"New
+        storage shed and 2 shipping containers on existing slab\"></Description> \r\n<Lodged
+        org_value=\"01/07/2019\"></Lodged> \r\n<Property org_value=\"70-72 Gooloogong
+        Road GRENFELL 2810\"></Property> \r\n<Applicant org_value=\"Mrs K Mitton\"></Applicant>
+        \r\n<AppYear org_value=\"2019\"></AppYear> \r\n<AppNumber org_value=\"21\"></AppNumber>
+        \r\n<PCA org_value=\"Weddin Shire Council\"></PCA> \r\n<Builder org_value=\"\"></Builder>
+        \r\n<EstimatedCost org_value=\"34760\"></EstimatedCost> \r\n<Officer org_value=\"Mr
+        B J Hayes\"></Officer> \r\n<LEP org_value=\"\"></LEP> \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729045155</id> \r\n<BAS_REF_VALUE>Applications:729045155</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Construction Certificate\"></AppType> \r\n<AccountNumber
+        org_value=\"CC2019/21.1\"></AccountNumber> \r\n<Description org_value=\"Shed\"></Description>
+        \r\n<Lodged org_value=\"01/07/2019\"></Lodged> \r\n<Property org_value=\"70-72
+        Gooloogong Road GRENFELL 2810\"></Property> \r\n<Applicant org_value=\"Mrs
+        K Mitton\"></Applicant> \r\n<AppYear org_value=\"2019\"></AppYear> \r\n<AppNumber
+        org_value=\"21\"></AppNumber> \r\n<PCA org_value=\"Weddin Shire Council\"></PCA>
+        \r\n<Builder org_value=\"\"></Builder> \r\n<EstimatedCost org_value=\"34760\"></EstimatedCost>
+        \r\n<Officer org_value=\"Mr B J Hayes\"></Officer> \r\n<LEP org_value=\"\"></LEP>
+        \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729045156</id> \r\n<BAS_REF_VALUE>Applications:729045156</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Occupation Certificate\"></AppType> \r\n<AccountNumber
+        org_value=\"OC2019/21.1\"></AccountNumber> \r\n<Description org_value=\"Shed\"></Description>
+        \r\n<Lodged org_value=\"01/07/2019\"></Lodged> \r\n<Property org_value=\"70-72
+        Gooloogong Road GRENFELL 2810\"></Property> \r\n<Applicant org_value=\"Mrs
+        K Mitton\"></Applicant> \r\n<AppYear org_value=\"2019\"></AppYear> \r\n<AppNumber
+        org_value=\"21\"></AppNumber> \r\n<PCA org_value=\"Weddin Shire Council\"></PCA>
+        \r\n<Builder org_value=\"\"></Builder> \r\n<EstimatedCost org_value=\"34760\"></EstimatedCost>
+        \r\n<Officer org_value=\"Mr B J Hayes\"></Officer> \r\n<LEP org_value=\"\"></LEP>
+        \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729569959</id> \r\n<BAS_REF_VALUE>Applications:729569959</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Development Applications\"></AppType> \r\n<AccountNumber
+        org_value=\"DA2019/22.1\"></AccountNumber> \r\n<Description org_value=\"Dwelling\"></Description>
+        \r\n<Lodged org_value=\"01/07/2019\"></Lodged> \r\n<Property org_value=\"30
+        Stan McCabe Drive GRENFELL 2810\"></Property> \r\n<Applicant org_value=\"Andys
+        Design &amp; Drafting\"></Applicant> \r\n<AppYear org_value=\"2019\"></AppYear>
+        \r\n<AppNumber org_value=\"22\"></AppNumber> \r\n<PCA org_value=\"Weddin Shire
+        Council\"></PCA> \r\n<Builder org_value=\"\"></Builder> \r\n<EstimatedCost
+        org_value=\"233940\"></EstimatedCost> \r\n<Officer org_value=\"Mr B J Hayes\"></Officer>
+        \r\n<LEP org_value=\"\"></LEP> \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n<row> \r\n<id>729569960</id> \r\n<BAS_REF_VALUE>Applications:729569960</BAS_REF_VALUE>
+        \r\n<AppType org_value=\"Construction Certificate\"></AppType> \r\n<AccountNumber
+        org_value=\"CC2019/11.1\"></AccountNumber> \r\n<Description org_value=\"Primary
+        and Secondary Dwelling + Shed\"></Description> \r\n<Lodged org_value=\"01/07/2019\"></Lodged>
+        \r\n<Property org_value=\"4951 Henry Lawson Way GRENFELL 2810\"></Property>
+        \r\n<Applicant org_value=\"Andys Design &amp; Drafting\"></Applicant> \r\n<AppYear
+        org_value=\"2019\"></AppYear> \r\n<AppNumber org_value=\"11\"></AppNumber>
+        \r\n<PCA org_value=\"Weddin Shire Council\"></PCA> \r\n<Builder org_value=\"\"></Builder>
+        \r\n<EstimatedCost org_value=\"597700\"></EstimatedCost> \r\n<Officer org_value=\"Mr
+        B J Hayes\"></Officer> \r\n<LEP org_value=\"\"></LEP> \r\n<BAS_PROTECTED></BAS_PROTECTED>\r\n<BAS_OPER_APPLICABILITY></BAS_OPER_APPLICABILITY>
+        \r\n</row> \r\n</dataset> \r\n</run_query_action_success> \r\n</run_query_action_return>
+        \r\n</root> \r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0

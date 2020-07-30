@@ -1,0 +1,43 @@
+---
+- council_reference: CC2019/11.1
+  address: 4951 Henry Lawson Way GRENFELL 2810 NSW
+  description: Primary and Secondary Dwelling + Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: CC2019/21.1
+  address: 70-72 Gooloogong Road GRENFELL 2810 NSW
+  description: Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: DA2019/21.1
+  address: 70-72 Gooloogong Road GRENFELL 2810 NSW
+  description: New storage shed and 2 shipping containers on existing slab
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: DA2019/22.1
+  address: 30 Stan McCabe Drive GRENFELL 2810 NSW
+  description: Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: DA2019/23.1
+  address: 21 Bradley Street GRENFELL 2810 NSW
+  description: Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-03'
+- council_reference: OC2019/11.1
+  address: 4951 Henry Lawson Way GRENFELL 2810 NSW
+  description: Primary and Secondary Dwelling + Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-02'
+- council_reference: OC2019/21.1
+  address: 70-72 Gooloogong Road GRENFELL 2810 NSW
+  description: Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'

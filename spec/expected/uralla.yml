@@ -1,0 +1,31 @@
+---
+- council_reference: CC2019/11.1
+  address: 24 McDonalds Lane ROCKY RIVER 2358 NSW
+  description: Wind Turbine
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_uralla
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-04'
+- council_reference: DA2019/48.1
+  address: 36 Bridge Street URALLA 2358 NSW
+  description: Secondary Dwelling and Tourist & Visitor Accommodation
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_uralla
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-05'
+- council_reference: S682019/34.1
+  address: 158 Gostwyck Road GOSTWYCK 2358 NSW
+  description: Installation of Onsite Sewer Management System
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_uralla
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-02'
+- council_reference: S682019/47.1
+  address: Court Street BUNDARRA 2359 NSW
+  description: Onsite Sewer Treatment System for Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_uralla
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-05'
+- council_reference: S682019/48.1
+  address: 36 Bridge Street URALLA 2358 NSW
+  description: Water Sewer & Stormwater Work for Secondary Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_uralla
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-08'

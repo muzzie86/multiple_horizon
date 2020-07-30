@@ -1,0 +1,25 @@
+---
+- council_reference: CC 2019/241.1
+  address: 132S Derby Street WALCHA 2354 NSW
+  description: Garage / Carport / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_walcha
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: CC 2019/242.1
+  address: 58W Fitzroy Street WALCHA 2354 NSW
+  description: Garage / Carport / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_walcha
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: DA 2019/49.1
+  address: 132S Derby Street WALCHA 2354 NSW
+  description: Garage / Carport / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_walcha
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'
+- council_reference: S68 2019/24.1
+  address: 132S Derby Street WALCHA 2354 NSW
+  description: Stormwater for Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_walcha
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-01'

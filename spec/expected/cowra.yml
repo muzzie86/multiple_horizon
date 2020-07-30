@@ -1,0 +1,37 @@
+---
+- council_reference: CC 2019/61.1
+  address: 28 Lachlan Street COWRA 2794 NSW
+  description: New Building Residential Pergola/Awning/Patio
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-03'
+- council_reference: CC 2019/63.1
+  address: Killara Road COWRA 2794 NSW
+  description: New Building Residential Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-03'
+- council_reference: DA 2019/61.1
+  address: 28 Lachlan Street COWRA 2794 NSW
+  description: New Building Residential Pergola/Awning/Patio
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-03'
+- council_reference: DA 2019/62.1
+  address: 12 Casuarina Close COWRA 2794 NSW
+  description: New Building Residential Pergola/Awning/Patio
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-03'
+- council_reference: DA 2019/63.1
+  address: Killara Road COWRA 2794 NSW
+  description: New Building Residential Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-04'
+- council_reference: FS 2018/50.1
+  address: Young Road COWRA 2794 NSW
+  description: Alterations & additions to Council depot & demolition of existing
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_cowra
+  date_scraped: '2019-05-15'
+  date_received: '2019-07-08'
