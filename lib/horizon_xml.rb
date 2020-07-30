@@ -33,8 +33,8 @@ module HorizonXml
     },
     maitland: {
       start_url: "https://myhorizon.maitland.nsw.gov.au/Horizon/logonOp.aw?e=" \
-                  "FxkUAB1eSSgbAR0MXx0aEBcRFgEzEQE6F10WSz4UEUMAZgQSBwVHHAQdXBNFETMAQkZFBEZAXxER" \
-                  "QgcwERAAH0YWSzgRBFwdIxUHHRleNAMcEgA%3D#/home",
+                  "FxkUAB1eSSgbAR0MXx0aEBcRFgEzEQE6F10WSz4UEUMAZgQSBwVHHAQdXD" \
+                  "hUDDRATCUCXV8pHz4pHidmBBYGBUAWFQ0IAlVJAQQDGB9TEgIQDhp3ASUHBw%3D%3D",
       page_size: 100,
       disable_ssl_certificate_check: true,
       query_string:
