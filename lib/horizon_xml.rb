@@ -36,6 +36,7 @@ module HorizonXml
                   "FxkUAB1eSSgbAR0MXx0aEBcRFgEzEQE6F10WSz4UEUMAZgQSBwVHHAQdXBNFETMAQkZFBEZAXxER" \
                   "QgcwERAAH0YWSzgRBFwdIxUHHRleNAMcEgA%3D#/home",
       page_size: 100,
+      disable_ssl_certificate_check: true,
       query_string:
         "FIND Applications " \
         "WHERE " \
@@ -133,9 +134,11 @@ module HorizonXml
       "ORDER BY " \
       "Applications.Lodged DESC",
     query_name: "SubmittedThisMonth",
-    state: nil
+    state: nil,
+    disable_ssl_certificate_check: false
   )
     agent = Mechanize.new
+    agent.verify_mode = OpenSSL::SSL::VERIFY_NONE if disable_ssl_certificate_check
 
     agent.get(start_url)
     page = agent.get(
