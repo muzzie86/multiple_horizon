@@ -34,17 +34,7 @@ RSpec.describe HorizonXml do
       expect(results).to eq expected
     end
 
-    AUTHORITIES = [
-      :cowra,
-      # Can't yet test liverpool_plains because it doesn't return any data for this month
-      # :liverpool_plains,
-      :uralla,
-      :walcha,
-      :weddin,
-      :maitland
-    ].freeze
-
-    AUTHORITIES.each do |authority|
+    HorizonXml::AUTHORITIES.each_key do |authority|
       it authority do
         test_scrape_and_save(authority)
       end

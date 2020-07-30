@@ -1,0 +1,127 @@
+---
+- council_reference: CC 2020/24.1
+  address: 5B Russell Street QUIRINDI 2343 NSW
+  description: New Dwelling & Detached Garage
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-14'
+- council_reference: CC 2020/33.1
+  address: 57 Hall Street WILLOW TREE 2339 NSW
+  description: New Works Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-14'
+- council_reference: CC 2020/35.1
+  address: 90 Borah Creek Road QUIRINDI 2343 NSW
+  description: New Works Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-22'
+- council_reference: CDC 2020/5.1
+  address: 29 Single Street WERRIS CREEK 2341 NSW
+  description: New Works Carport / Garage / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-10'
+- council_reference: CDC 2020/6.1
+  address: 2360 Merriwa Road LITTLE JACKS CREEK 2339 NSW
+  description: New Works Pools / decks / fencing
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-21'
+- council_reference: CDC 2020/7.1
+  address: 3 Greentrees Drive QUIRINDI 2343 NSW
+  description: New Works Carport / Garage / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-28'
+- council_reference: DA 2018/63.2
+  address: 193 George Street QUIRINDI 2343 NSW
+  description: 'Section 4.55(1A) Modification to DA 63/2018: Staged Development:'
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-20'
+- council_reference: DA 2020/33.1
+  address: 57 Hall Street WILLOW TREE 2339 NSW
+  description: New Works Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-14'
+- council_reference: DA 2020/34.1
+  address: 52 Station Street QUIRINDI 2343 NSW
+  description: Alteration and/or Additions to existing Other
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-21'
+- council_reference: DA 2020/35.1
+  address: 90 Borah Creek Road QUIRINDI 2343 NSW
+  description: New Works Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-22'
+- council_reference: OC 2020/33.1
+  address: 57 Hall Street WILLOW TREE 2339 NSW
+  description: New Works Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-14'
+- council_reference: OC 2020/34.1
+  address: 52 Station Street QUIRINDI 2343 NSW
+  description: Alteration and/or Additions to existing Other
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-21'
+- council_reference: OC 2020/35.1
+  address: 90 Borah Creek Road QUIRINDI 2343 NSW
+  description: New Works Dwelling
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-22'
+- council_reference: OC 2020/5.2
+  address: 29 Single Street WERRIS CREEK 2341 NSW
+  description: New Works Carport / Garage / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-10'
+- council_reference: OC 2020/7.1
+  address: 3 Greentrees Drive QUIRINDI 2343 NSW
+  description: New Works Carport / Garage / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-29'
+- council_reference: OC 2020/7.2
+  address: 3 Greentrees Drive QUIRINDI 2343 NSW
+  description: New Works Carport / Garage / Shed
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-28'
+- council_reference: S68 2020/4.1
+  address: 4 Hall Street WILLOW TREE 2339 NSW
+  description: ''
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-08'
+- council_reference: S68 2020/5.1
+  address: 52 Station Street QUIRINDI 2343 NSW
+  description: ''
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-13'
+- council_reference: S68 2020/6.1
+  address: 90 Borah Creek Road QUIRINDI 2343 NSW
+  description: ''
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-22'
+- council_reference: S68 2020/7.1
+  address: 4 Industrial Drive QUIRINDI 2343 NSW
+  description: ''
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-29'
+- council_reference: S68 2020/8.1
+  address: 3 Greentrees Drive QUIRINDI 2343 NSW
+  description: ''
+  info_url: http://myhorizon.solorient.com.au/Horizon/logonGuest.aw?domain=horizondap_lpsc
+  date_scraped: '2019-05-15'
+  date_received: '2020-07-28'
